@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<title>Bootstrap Components</title>
+</head>
+<body>
+
+	<!--Navbar Start-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Tools</a>
+				</li>
+
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Navbar End -->
+
+	<!-- Maint Content Section Start -->
+
+	<div class="container-fluid text-center">
+		<div class="row">
+
+			<!-- Side Navbar Section Start -->
+			<div class="card col-xl-2 d-none d-xl-block p-0">
+
+				<div class="accordion" id="accordionExample">
+
+					<!-- Services Section Start -->
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Services
+								</button>
+							</h2>
+						</div>
+
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+							<div class="card-body">
+								<ul class="text-left" style="list-style: none;">
+									<li><a href="">Front End Design</a></li>
+									<li><a href="">Back End Server</a></li>
+									<li><a href="">Fullstack Development</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Services Section Start -->
+
+					<!-- Projects Section Start -->
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Project
+								</button>
+							</h2>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							<div class="card-body">
+								<ul class="text-left" style="list-style: none;">
+									<li><a href="">HTML</a></li>
+									<li><a href="">Bootstras</a></li>
+									<li><a href="">Node JS Server</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Projection Section End -->
+
+					<!-- Tools Section Start -->
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									Tools
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							<div class="card-body">
+								<ul class="text-left" style="list-style: none;">
+									<li><a href="">Core Tools</a></li>
+									<li><a href="">Other Tools</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Tools Section End -->
+				</div>
+			</div>
+
+			<!-- Side Navbar Section End -->
+
+			<!-- Side Content Section Start -->
+
+			<div class="col-xl-10 p-0">
+
+				<!-- Profile Section Start -->
+
+				<div class="container-fluid bg-dark text-light min-vh-100 p-3 p-md-5">
+					<img src="https://i.guim.co.uk/img/media/3656ae6ea2209d4561caf04fa9f172a519908ca3/0_28_2318_1391/master/2318.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=afcc355f47876bc495cdc3c902639bae " alt="" width="250" class="mt-5 mt-md-0 rounded-circle">
+
+					<h1>Ada Lovelace</h1>
+					<h3>Full-Stack Developer</h3>
+
+					<div class="row mt-5">
+						<div class="offset-md-2 col-md-8"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, quisquam. Quasi corrupti, maxime quos, optio impedit fugiat repudiandae. Natus dignissimos accusantium voluptates officia fuga a corporis minus quod rerum voluptatem.</p>
+						</div>
+
+					</div>
+
+					<!-- Carousel Section Start -->
+
+					<div class="row d-none d-md-block mt-md-5">
+						<div class="offset-xl-3 col-xl-6">
+
+							<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+									<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="http://place-puppy.com/500x300" class="d-block w-100" alt="...">
+										<div class="carousel-caption d-none d-md-block">
+											<h5>First slide label</h5>
+											<p>Some representative placeholder content for the first slide.</p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img src="http://placekitten.com/500/300" class="d-block w-100" alt="...">
+										<div class="carousel-caption d-none d-md-block">
+											<h5>Second slide label</h5>
+											<p>Some representative placeholder content for the second slide.</p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img src="http://placebear.com/500/300" class="d-block w-100" alt="...">
+										<div class="carousel-caption d-none d-md-block">
+											<h5>Third slide label</h5>
+											<p>Some representative placeholder content for the third slide.</p>
+										</div>
+									</div>
+								</div>
+								<button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</button>
+								<button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</button>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<!-- Carousel Section End -->
+
+				</div>
+
+				<!-- Profile Section End -->
+
+				<!-- Other Project Section Start -->
+
+				<div class="bg-secondary text-light min-vh-100 p-md-5">
+					<h2 class="mb-3">Other Projects</h2>
+
+					<!-- Other Projects Container Start -->
+
+					<div class="d-lg-flex justify-content-center p-md-5">
+						
+						<!-- HTM Card Start -->
+						<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+						<div class="card-body">
+							<img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" alt="" class="card-img-top">
+							<h5 class="card-title">HTML</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Programming Basics</h6>
+							<p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil temporibus aliquid perspiciatis! Quidem fugit dignissimos molestiae voluptas beatae, quibusdam modi facilis distinctio, iure impedit voluptates ut accusantium praesentium, facere!</p>
+							<a href="#" class="card-link">Link to Project</a>							
+						</div>
+						</div>
+
+						<!-- HTM Card End -->
+
+						<!-- Bootstrap Card Start -->
+						<div class= "card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+					  <div class="card-body">
+					  	<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Pw0BMfnl--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://bugs-bunny.net/wp-content/uploads/2019/03/bootstrap4.jpg" alt="" class="card-img-top">
+					    <h5 class="card-title">Bootstrap</h5>
+					    <h6 class="card-subtitle mb-2 text-muted">Rapid Prototyping</h6>
+					    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quae provident. Velit hic quibusdam corporis nesciunt, dolores nihil similique natus reiciendis. Iste maxime eum consequuntur in iure aut ab sapiente.</p>
+					    <a href="#" class="card-link">Link to Project</a>
+					  </div>
+					</div>
+
+						<!-- Bootstrap Card End -->
+
+						<!-- Node JS Server Start -->
+						<div class= "card bg-dark col-xl-4 mb-5 mb-xl-0">
+					  <div class="card-body">
+					  	<img src="https://clever-solution.com/wp-content/uploads/2020/04/5625%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C-1-1280x720.png" alt="" class="card-img-top">
+					    <h5 class="card-title">Node JS Server</h5>
+					    <h6 class="card-subtitle mb-2 text-muted">Backend Basics</h6>
+					    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quae provident. Velit hic quibusdam corporis nesciunt, dolores nihil similique natus reiciendis. Iste maxime eum consequuntur in iure aut ab sapiente.</p>
+					    <a href="#" class="card-link">Link to Project</a>
+					  </div>
+					</div>
+
+						<!-- Node JS Server End -->
+
+					</div>
+					<!-- Other Projects Container End -->
+
+				</div>
+
+				<!-- Other Project Section End -->
+					<!-- Contact Form Section Start -->
+				<div class="bg-dark min-vh-100 p-5">
+
+					<h2 class="text-light">Contact Me</h2>
+
+					<div class="row mt-3">
+						<form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 bg-primary p-3 rounded">
+							<div class="form-group">
+								<label class="text-light" for="name">Name</label>
+								<input type="text" class="form-control" id="name" placeholder="Your Name">
+							</div>
+							<div class="form-group">
+								<label class="text-light" for="email">Email address</label>
+								<input type="email" class="form-control" id="email" placeholder="name@example.com">
+							</div>
+							<div class="form-group">
+								<label class="text-light" for="contact">Contact Number</label>
+								<input type="text" class="form-control" id="contact" placeholder="+63 900 000 0000">
+							</div>
+							<div class="form-group">
+								<label class="text-light" for="concern">Concern</label>
+								<select class="form-control" id="concern">
+									<option>Quotation</option>
+									<option>Appointment</option>
+									<option>Follow-Up</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label class="text-light" for="message">Message</label>
+								<textarea class="form-control" id="message" rows="7"></textarea>
+							</div>
+							<button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+						</form>
+					</div>
+
+				</div>
+				<!-- Contact Form Section End -->
+
+
+
+
+
+			</div>
+
+
+			<!-- Side Content Section End -->
+
+		</div>
+
+
+
+	</div>
+
+	<!-- Main Contenct Section End -->
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>	
+</body>
+</html>
